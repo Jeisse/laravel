@@ -12,8 +12,12 @@
 */
 
 Route::get('/', 'WelcomeController@index');
-
 Route::get('home', 'HomeController@index');
+Route::get('pages/about', 'PagesController@about');
+
+Route::get('vueTrainingPhaseOne', 'WelcomeController@vueTrainingPhaseOne');
+Route::get('vueTrainingPhaseTwo', 'WelcomeController@vueTrainingPhaseTwo');
+Route::get('vueTrainingPhaseThree', 'WelcomeController@vueTrainingPhaseThree');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

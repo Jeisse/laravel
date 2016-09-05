@@ -33,4 +33,18 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	public function vueTrainingPhaseOne()
+	{
+		return view('vue-training-one');
+	}
+
+	public function vueTrainingPhaseTwo()
+	{
+		return view('vue-training-two');
+	}
+	public function vueTrainingPhaseThree()
+	{
+		return view('vue-training-three');
+	}
+
 }
